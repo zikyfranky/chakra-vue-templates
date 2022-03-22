@@ -32,6 +32,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://www.zikyfranky.com"><img src="https://avatars0.githubusercontent.com/u/36174178?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Isaac Frank</b></sub></a><br /><a href="https://github.com/zikyfranky/chakra-vue-templates/issues?q=author%3Azikyfranky" title="Bug reports">🐛</a> <a href="https://github.com/zikyfranky/chakra-vue-templates/commits?author=zikyfranky" title="Code">💻</a> <a href="https://github.com/zikyfranky/chakra-vue-templates/commits?author=zikyfranky" title="Documentation">📖</a> <a href="#ideas-zikyfranky" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/zikyfranky/chakra-vue-templates/pulls?q=is%3Apr+reviewed-by%3Azikyfranky" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
+
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->

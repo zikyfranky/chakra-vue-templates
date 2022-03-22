@@ -1,9 +1,17 @@
-<script setup lang="ts">
-import { RouterView } from "vue-router";
-</script>
-
 <template>
-  <RouterView />
+  <CThemeProvider>
+    <router-view />
+  </CThemeProvider>
 </template>
+
+<script lang="ts">
+import { CThemeProvider } from "@chakra-ui/vue";
+
+export default {
+  components: {
+    CThemeProvider,
+  },
+};
+</script>
 
 <style></style>

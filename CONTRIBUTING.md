@@ -31,15 +31,12 @@ GITHUB_TOKEN=YOUR_TOKEN_HERE
 
 ### Commands
 
-`yarn dev`: run the Vue.js dev command. Visit [http://localhost:3000/](http://localhost:3000/) to see the local environment
-"dev": "vite",
-"build": "vue-tsc --noEmit && vite build",
-"preview": "vite preview --port 5050",
-"typecheck": "vue-tsc --noEmit",
-"lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+`yarn dev`: run the Vue.js dev command. Visit [http://localhost:8080/](http://localhost:8080/) to see the local environment
 `yarn build`: run the Vue.js build command
 
-`yarn preview`: run the Vue.js preview command
+`yarn preview`: run the Vue.js preview command to view in production
+
+`yarn test:unit`: Run Mocha/Chai Unit tests
 
 `yarn lint`: lint all the files regarding errors
 

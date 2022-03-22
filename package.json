@@ -8,11 +8,11 @@
   },
   "author": "Isaac Frank <codingwithisaac@gmail.com>",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview --port 5050",
-    "typecheck": "vue-tsc --noEmit",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "preview": "cd dist && live-server --port 5050",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint"
   },
   "husky": {
     "hooks": {
@@ -23,23 +23,33 @@
   "dependencies": {
     "@chakra-ui/vue": "^0.11.0",
     "@emotion/css": "^11.7.1",
-    "vue": "^3.2.31",
-    "vue-router": "^4.0.12"
+    "live-server": "^1.2.1",
+    "vue": "^2.6.14",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^9.1.2",
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.1.0",
-    "@types/node": "^16.11.25",
-    "@vitejs/plugin-vue": "^2.2.2",
-    "@vue/eslint-config-prettier": "^7.0.0",
-    "@vue/eslint-config-typescript": "^10.0.0",
-    "@vue/tsconfig": "^0.1.3",
-    "eslint": "^8.5.0",
-    "eslint-plugin-vue": "^8.2.0",
-    "husky": "^4.3.8",
-    "prettier": "^2.5.1",
-    "pretty-quick": "^3.1.0",
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.1",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-plugin-unit-mocha": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "@vue/test-utils": "^1.1.3",
+    "chai": "^4.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "prettier": "^2.4.1",
     "typescript": "~4.5.5",
-    "vite": "^2.8.4",
-    "vue-tsc": "^0.31.4"
+    "vue-template-compiler": "^2.6.14",
+    "husky": "^4.3.8",
+    "pretty-quick": "^3.1.0"
   }
 }

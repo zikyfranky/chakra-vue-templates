@@ -1,9 +1,16 @@
-import { createApp } from "vue";
-import App from "./App.vue";
+import Vue from "vue";
+import App from "@/App.vue";
+import Chakra from "@chakra-ui/vue";
 import router from "./router";
+import customTheme from "@/theme";
 
-const app = createApp(App);
+Vue.config.productionTip = false;
 
-app.use(router);
+Vue.use(Chakra, {
+  extendTheme: customTheme,
+});
 
-app.mount("#app");
+new Vue({
+  router,
+  render: (h) => h(App),
+}).$mount("#app");
